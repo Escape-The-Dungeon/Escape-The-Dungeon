@@ -1,15 +1,11 @@
 import './App.css';
-import Question from "./components/Question";
-import Container from "./components/Container";
-import Card from "./components/Card";
+
+
+import Title from "./pages/Title";
 
 function App() {
   return (
-    <Container>
-      <Card>
-      <Question />
-      </Card>
-      </Container>
+    <Title />
   );
 }
 
