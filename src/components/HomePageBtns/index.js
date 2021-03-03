@@ -1,9 +1,9 @@
 import React from "react";
 
-function TextBtns() {
+function HomePageBtns() {
     return(
         <button>Play Game</button>
     )
 }
 
-export default TextBtns;
+export default HomePageBtns;

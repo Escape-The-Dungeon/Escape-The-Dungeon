@@ -1,9 +1,47 @@
 #text-box{
     margin-top: 450px;
+    display: block;
+    position: relative;
+    margin: 390px 0px 0px 0px ;
     width: 100%;
     border: 6px solid red;
-    height: 150px;
+    height: 180px;
     font-family: 'MedievalSharp', cursive;
     text-align: center;
     font-size: 25px;
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+/* .container {
+    width: 30px;
+    max-width: 80%;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+  } */
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 10px;
+    
+    
+  }
+
+.btn {
+    background-color: hsl(200, 100%, 50%);
+    border: 1px solid hsl(200, 100%, 30%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+  
+.btn:hover {
+    border-color: black;
+  }
