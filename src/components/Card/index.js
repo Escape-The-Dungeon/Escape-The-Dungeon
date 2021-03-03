@@ -8,7 +8,6 @@ function Card(props) {
 
     <div className="card" style={{ backgroundImage: `url(${props.backgroundImage})`}}>
       {props.children}
-      <Question />
       <Textbox />
 
     </div>
