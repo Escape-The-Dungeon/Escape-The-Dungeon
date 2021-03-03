@@ -1,29 +1,19 @@
 import './App.css';
 
-
-
-import Title from "./pages/Title";
-
+import Navbar from "./components/Navbar";
 import Question from "./components/Question";
 import Container from "./components/Container";
 import Card from "./components/Card";
 
 
 function App() {
- 
   return (
-
-    <Title />
-
-
     <Container>
-      <Card>
+      <Navbar />
+       <Card>
         <Question />
-      </Card>
-    </Container>
-
-
-
+     </Card>
+     </Container>
   );
 }
 
