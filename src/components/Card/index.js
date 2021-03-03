@@ -1,11 +1,11 @@
 import React from "react";
-// import CardBtn from "../CardBtn";
 import "./style.css";
 import Question from "../Question";
 
 function Card(props) {
   return (
-    <div className="card">
+    <div className="card" style={{ backgroundImage: `url(${props.backgroundImage})`}}>
+      {props.children}
       <Question />
     </div>
   );
