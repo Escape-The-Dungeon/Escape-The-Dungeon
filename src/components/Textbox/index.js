@@ -1,21 +1,36 @@
 import React from "react";
 import "./style.css";
+import Story from "./story";
+import story from "./story";
 
-function Textbox() {
-    return (
-        <section className="container">
-            <div id="text-box">Welcome to Escape the Dungeon! Locked in a dungeon with unknown horrors, you're goal is too escape......and survive!
-            <div id="option-buttons" className="btn-grid">
-                    <button className="btn">Option 1</button>
-                    <button className="btn">Option 2</button>
-                    <button className="btn">Option 3</button>
-                    <button className="btn">Option 4</button>
+class Textbox extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { current: 1}
+        this.story = Story
+        this.handleClick = this.handleClick.bind(this);
+
+    }
+    handleClick(arg) {
+        console.log(arg.target.id);
+        this.setState({current: arg.target.id})
+      }
+    render() {
+        const storyobj = this.story.story[this.state.current]
+        return (
+            <section className="container">
+                <div id="text-box">{storyobj.blob}
+
+                    <div id="option-buttons" className="btn-grid">
+                        {storyobj.options.map((option) => <button onClick={this.handleClick} 
+                        id={option.next} className="btn">{option.name}</button>)}
+                    </div>
                 </div>
-            </div>
+            </section>
 
-        </section>
+        )
+    }
 
-    )
 }
 
 export default Textbox;
