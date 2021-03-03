@@ -1,12 +1,12 @@
 import React from "react";
 // import CardBtn from "../CardBtn";
 import "./style.css";
-import Question from "../Question";
+import Textbox from "../Textbox";
 
 function Card(props) {
   return (
     <div className="card">
-      <Question />
+      <Textbox />
     </div>
   );
 }
