@@ -10,7 +10,7 @@ function App() {
   return (
     <Container>
       <Navbar />
-       <Card>
+       <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">
         <Question />
      </Card>
      </Container>
