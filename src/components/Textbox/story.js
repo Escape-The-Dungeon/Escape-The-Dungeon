@@ -122,7 +122,7 @@ let story =  [
         },
         {
             "id": 8,
-            "blob": "You continue down a hallway that is widening out and seems to be going uphill. You grow hopeful and then you suddenly come across a fork in the road. You look into the left path and notice the stone walls turn into dirt. You look into the left path and notice no changeWhich path calls out to you?",
+            "blob": "You continue down a hallway that is widening out and seems to be going uphill. You grow hopeful and then you suddenly come across a fork in the road. You look into the left path and notice the stone walls turn into dirt. You look into the right path and notice no change. Which path calls out to you?",
             "options": [
                 {
                     "name": "dirt-walled tunnel",
