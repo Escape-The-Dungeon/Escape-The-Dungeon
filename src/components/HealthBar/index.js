@@ -6,7 +6,7 @@ function HealthBar() {
     
     return(
         <div id="healthbar">
-            <Progress value={25} />
+            <Progress value={100} />
         </div>
     )
 }
