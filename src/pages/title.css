@@ -1,3 +1,17 @@
+/* LOGIN PAGE STYLING */
+
+.authentication {
+  margin: auto;
+  margin-top: 10vw;
+  /* background-color: lightslategrey; */
+  background-image: url("https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg");
+  height: 30vw;
+  width: 30vw;
+  text-align: center;
+}
+
+
+/* TITLE PAGE STYLING */
 .titleContainer {
     margin: 150px 0px 0px 0px;
     text-align: center;
