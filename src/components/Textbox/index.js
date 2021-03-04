@@ -6,7 +6,7 @@ import story from "./story";
 class Textbox extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { current: 1}
+        this.state = { current: 0}
         this.story = Story
         this.handleClick = this.handleClick.bind(this);
 
