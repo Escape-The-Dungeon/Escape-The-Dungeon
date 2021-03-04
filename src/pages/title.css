@@ -1,0 +1,46 @@
+.titleContainer {
+    margin: 150px 0px 0px 0px;
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    color: red;
+}
+
+.img-thumbnail {
+    animation: omgBox 4s;
+    height: 50%;
+    width: 35%;
+    margin: auto;
+    display: block
+}
+
+@keyframes omgBox {
+    0% {
+        transform: translate3d(0px, -150px, 0px);
+        opacity: 5%;
+    }
+    50% {
+        transform: translate3d(0px, 50px, 0px);
+        opacity: 100%;
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+        opacity: 100%;
+    }
+  }
+
+  /* HOME PAGE LINKS STYLE */
+  .nav-link {
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+
+  }
+
+  .nav-link:hover {
+    color: white;
+    text-shadow: 0 0 3px white;
+  }
+
+  .nav-link:active {
+    color: yellow;
+  }
