@@ -33,7 +33,7 @@ export default {
         },
         {
             "id": 3,
-            "blob": "You start going down a damn hallway and become heavily uneasy because of the giant lurking in the corner and his eyes inpentreting you like daggers. Do you:",
+            "blob": "You start going down a damp hallway and become heavily uneasy because of the giant lurking in the corner and his eyes inpentreting you like daggers. Do you:",
             "options": [
                 {
                     "name": "keep going",
