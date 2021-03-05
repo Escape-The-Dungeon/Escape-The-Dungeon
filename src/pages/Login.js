@@ -9,13 +9,15 @@ form.addEventListener('submit', registerUser)
 
 function registerUser(event) {
     event.preventDefault()
+    const username = document.getElementById('username')
+    const password = document.getElementById('password')
 }
 
     return (
         <Container>
             <form id="reg-form">
-                <input type="text" placeholder="Username" />
-                <input type="password" placeholder="Password" />
+                <input type="text" id="username" placeholder="Username" />
+                <input type="password" id="password" placeholder="Password" />
             </form>
             {/* <section className="authentication">
                 <div className="login-wrapper">
