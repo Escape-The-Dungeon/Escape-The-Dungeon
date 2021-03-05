@@ -1,5 +1,6 @@
+import React from 'react';
 import './App.css';
-import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 import Title from "./pages/Title";
 import Game from "./pages/Game";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -12,7 +13,7 @@ function App() {
   
     <Container>
     <Router>
-      <Route exact path="/" component={Login} />
+      <Route exact path="/" component={Signup} />
       <Route exact path="/title" component={Title} />
       <Route exact path="/game" component={Game} />
     </Router>
