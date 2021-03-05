@@ -4,9 +4,20 @@ import { Link } from "react-router-dom";
 import "./title.css"
 
 function Login() {
+const form = document.getElementById('reg-form')
+form.addEventListener('submit', registerUser)
+
+function registerUser(event) {
+    event.preventDefault()
+}
+
     return (
         <Container>
-            <section className="authentication">
+            <form id="reg-form">
+                <input type="text" placeholder="Username" />
+                <input type="password" placeholder="Password" />
+            </form>
+            {/* <section className="authentication">
                 <div className="login-wrapper">
                     <h1>Please Log In</h1>
                     <form>
@@ -22,14 +33,14 @@ function Login() {
                             <button type="submit">Submit</button>
                         </div>
                     </form>
-                </div>
+                </div> */}
                 <Link
                     to="/title"
                     className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
                 >
                     Sign up!
             </Link>
-            </section>
+            {/* </section> */}
         </Container>
 
 
