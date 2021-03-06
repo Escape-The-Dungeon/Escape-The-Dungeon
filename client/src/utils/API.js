@@ -6,3 +6,5 @@ export default {
         return axios.post("/api/user", user)
     }
 };
+
+//Testing
