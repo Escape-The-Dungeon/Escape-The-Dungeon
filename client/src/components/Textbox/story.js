@@ -1,6 +1,9 @@
+// import Img_0 from "../../../public/images/Weapon.jpeg"
+
 let story =  [
         {
             "id": 0,
+            "img": "https://cdn.pixabay.com/photo/2017/08/16/22/27/thumbs-up-2649310_960_720.jpg",
             "blob": "You wake up in a cellar, the only light being a torch on the wall showing a single open doorway in front of you. The walls to your left and right are stone and barren. You take the torch off the wall and immediately walk through the doorway, you never liked being underground and now youre starting to feel claustrophobic. On the other side of the rounded doorway you find yourself in a tiny room with an opening to your left and right. Which do you feel most compelled to take?",
             "options": [
                 {
