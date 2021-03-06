@@ -1,8 +1,8 @@
 #text-box{
-    margin-top: 375px;
+    /* margin-top: 375px; */
     display: block;
     position: relative;
-    margin: 350px 0px 0px 0px ;
+    margin: 0px 0px 0px 0px ;
     width: 100%;
     border: 6px solid red;
     height: 200px;
@@ -45,4 +45,11 @@
   
 .btn:hover {
     border-color: black;
+  }
+
+  /* WIP */
+  #story-img {
+    height: 39vh;
+    width: 100%;
+    margin-bottom: 0;
   }
