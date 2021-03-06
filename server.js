@@ -27,6 +27,11 @@ app.get("*", (req, res) => {
   // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/escape");
 
+// Connects to heroku
+mongoose.connect( "mongodb+srv://Hawk:Falcon1@cluster0.yo2d0.mongodb.net/escape?retryWrites=true&w=majority")
+.then(() => console.log("MongoDB Connected"))
+  .catch((err) => console.log(err));
+
   //Dynamically uses port
   app.listen(PORT, () => {
     console.log(`🌎 ==> API server now on port ${PORT}!`);

@@ -66,7 +66,6 @@ function Signup() {
             >
                 Sign up!
             </Link>
-            {/* </section> */}
         </Container>
 
 
