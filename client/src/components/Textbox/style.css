@@ -1,10 +1,9 @@
 #text-box{
-    /* margin-top: 375px; */
     display: block;
     position: relative;
-    margin: 0px 0px 0px 0px ;
     width: 100%;
     border: 6px solid red;
+    padding: 1px;
     height: 200px;
     font-family: 'MedievalSharp', cursive;
     text-align: center;
@@ -49,7 +48,7 @@
 
   /* WIP */
   #story-img {
-    height: 39vh;
+    height: 50vh;
     width: 100%;
     margin-bottom: 0;
   }
