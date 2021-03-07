@@ -11,11 +11,12 @@ function Game() {
     <Container>
       <Navbar />
 
-      <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">  
+      <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">
+       
         <HealthBar />
         
         <Textbox />
-        
+       
 
 
       </Card>
