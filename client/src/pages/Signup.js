@@ -54,6 +54,7 @@ function Signup() {
             </form>
             <Link
                 to="/title"
+                id="reg-form"
                 className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
             >
                 Sign up!
