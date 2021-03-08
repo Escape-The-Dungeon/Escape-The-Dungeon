@@ -12,18 +12,15 @@ class Textbox extends React.Component {
     handleClick(id) {
         console.log(id);
         this.setState({ current: id })
-
     }
     render() {
         const storyobj = this.story[this.state.current]
         console.log(storyobj.options[1].next)
-
         return (
             <section className="col-md-12">
                 <img id="story-img" src={storyobj.img} />
                 <div id="text-box" className="col-md-12">{storyobj.blob}
                     <div id="option-buttons" className="btn-grid">
-
                         <button onClick={() => this.handleClick(storyobj.options[1].next)} className="btn-danger">{storyobj.options[1].name}</button>
                         <button onClick={() => this.handleClick(storyobj.options[0].next)} className="btn-danger">{storyobj.options[0].name}</button>
                     </div>
@@ -32,4 +29,5 @@ class Textbox extends React.Component {
         )
     }
 }
+
 export default Textbox;

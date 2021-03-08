@@ -3,7 +3,6 @@ import Container from "../components/Container";
 import { Link } from "react-router-dom";
 import "./title.css";
 
-
 function Title() {
     return(
         <Container>
