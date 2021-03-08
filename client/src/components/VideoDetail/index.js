@@ -5,7 +5,6 @@ const VideoDetail = ({video}) => {
     if (!video) {
         return <div id="one"></div>;
     }
-
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
     console.log(typeof(video));
     return (
@@ -18,7 +17,6 @@ const VideoDetail = ({video}) => {
                 <p id="one">{video.snippet.description}</p>
             </div>
         </div>
-
     )
 }
 

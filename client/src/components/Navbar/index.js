@@ -6,10 +6,8 @@ import "./style.css";
 function Navbar() {
   return (
       <div id="title">
-        <b>Escape The Dungeon</b>
-     
-      </div>
-      
+        <b>Escape The Dungeon</b>    
+      </div>      
   );
 }
 

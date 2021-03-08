@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Searchbar extends React.Component {
+class SearchBar extends React.Component {
     state = {
         term: 'Default text'
     };
@@ -13,7 +13,6 @@ class Searchbar extends React.Component {
         event.preventDefault();
         this.props.handleFormSubmit(this.state.term);
     }
-
     render() {
         return (
             <div className='search-bar ui segment'>
@@ -27,4 +26,5 @@ class Searchbar extends React.Component {
         )
     }
 }
-export default Searchbar;
+
+export default SearchBar;

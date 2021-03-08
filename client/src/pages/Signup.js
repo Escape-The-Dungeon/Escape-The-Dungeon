@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 import Container from "../components/Container";
 import { Link } from "react-router-dom";
-import API from "../utils/API"
-import "./title.css"
+import API from "../utils/API";
+import "./title.css";
 
 function Signup() {
-
     //This is where set and state is, ya'll
     const [userName, setuserName] = useState("");
     const [password, setpassword] = useState("");
-
 
     const handleInputChange = event => {
         // Getting the value and name of the input which triggered the change
@@ -21,8 +19,7 @@ function Signup() {
         }
         if (name === "password") {
             setpassword(value);
-          }
-    
+          }   
     };
 
     const handleFormSubmit = event => {
@@ -32,14 +29,10 @@ function Signup() {
             username: userName,
             password: password
         }
-      
         API.registerUser(user).then(res => {
             console.log(res)
         })
-
-
     };
-
     return (
         <Container>
             <form id="reg-form">
@@ -58,7 +51,6 @@ function Signup() {
                     placeholder="Password"
                 />
                 <button onClick={handleFormSubmit}>Submit</button>
-
             </form>
             <Link
                 to="/title"
@@ -67,8 +59,6 @@ function Signup() {
                 Sign up!
             </Link>
         </Container>
-
-
     )
 }
 

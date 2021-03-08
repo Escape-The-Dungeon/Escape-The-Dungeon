@@ -2,8 +2,7 @@ import React from "react";
 import { Progress } from "reactstrap";
 import "./style.css";
 
-function HealthBar() {
-    
+function HealthBar() {   
     return(
         <div id="healthbar">
             <Progress value={100} />

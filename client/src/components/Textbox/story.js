@@ -1,5 +1,3 @@
-// import Img_0 from "../../../public/images/Weapon.jpeg"
-
 let story =  [
         {
             "id": 0,
@@ -15,7 +13,6 @@ let story =  [
                     "next": 1
                 }
             ]
-
         },
         {
             "id": 1,
@@ -30,7 +27,6 @@ let story =  [
                     "next": 2
                 }
             ]
-
         },
         {
             "id": 2,
@@ -59,9 +55,7 @@ let story =  [
                     "next": 0
                 },
             ]
-
-        },
-       
+        },      
         {
             "id": 4,
             "blob": "The gargoyle nods. “Welcome home, good doctor.” It says as the platform underneath it activates, revealing a hidden path behind the statue. Afterwards, the statue remains unresponsive and still. You thank your sharp wits and continue onwards to the hidden path. You recall the gargoyle calling you ‘doctor’ and wonder what it all means as you proceed forward and soon enough you find yourself in a winding hallway lit with more torches. Up ahead is an open iron door and faint humming can be heard from beyond the door frame. You can only imagine that to be the ‘good doctor’ the gargoyle spoke about. To the left of you is a wooden door opened slightly and you can see descending stairs through the slit of the door.",
@@ -75,9 +69,7 @@ let story =  [
                     "next": 7
                 }
             ]
-
-        },
-        
+        },      
         {
             "id": 5,
             "blob": "Daringly, you step forward. As you approach the figure your torchlight reveals more and more of the path ahead, crunching underneath your feet as piles of bones become more frequent. Your heart rate escalates as the glowing eyes inch closer with each step you take until, finally, your light is within range to see the figure clearly. A giant skeletal entity with its body half fused to the wall stares blankly at you, looming over a gathering of burnt corpses frozen in varying positions of prayer. Its free hand lays motionless to the side and you wonder why it pays you no mind. You notice an arched door directly underneath it, the direction all of the corpses are facing, and another room to the west with faint, eery sounds of weeping past its opening. Another survivor, perhaps?",
@@ -91,7 +83,6 @@ let story =  [
                     "next": 9
                 }
             ]
-
         },
         {
             "id": 6,
@@ -106,7 +97,6 @@ let story =  [
                     "next": 0
                 },
             ]
-
         },
         {
             "id": 7,
@@ -121,7 +111,6 @@ let story =  [
                     "next": 11
                 }
             ]
-
         },
         {
             "id": 8,
@@ -136,7 +125,6 @@ let story =  [
                     "next": 13
                 }
             ]
-
         },
         {
             "id": 9,
@@ -151,7 +139,6 @@ let story =  [
                     "next": 0
                 }
             ]
-
         },
         {
             "id": 10,
@@ -166,7 +153,6 @@ let story =  [
                     "next": 0
                 }
             ]
-
         },
         {
             "id": 11,
@@ -181,7 +167,6 @@ let story =  [
                     "next": 8
                 }
             ]
-
         },
         {
             "id": 12,
@@ -196,11 +181,10 @@ let story =  [
                     "next": 0
                 }
             ]
-
         },
         {
             "id": 13,
-            "blob": "The tunnel continues uphill and you grow increasingly more hopeful but little by little the tunnel grows narrower till you’re at the point where you have to push yourself through. But wait, is that light up ahead? You push yourself further and further into the narrow cave until you can’t move anymore. But that light, it’s just around the corner.. You think there must be another way out so you try to turn back but you find yourself stuck. You’ve wedged yourself too far inside. If only desperation hadn’t taken hold of you ,you think to yourself as you wait out your long inevitable death. THE END",
+            "blob": "The tunnel continues uphill and you grow increasingly more hopeful but little by little the tunnel grows narrower till you’re at the point where you have to push yourself through. But wait, is that light up ahead? You push yourself further and further into the narrow cave until you can’t move anymore. But that light, it’s just around the corner.. You think there must be another way out so you try to turn back but you find yourself stuck. You’ve wedged yourself too far inside. If only desperation hadn’t taken hold of you, you think to yourself as you wait out your long inevitable death. THE END",
             "options": [
                 {
                     "name": "Start Over",
@@ -211,7 +195,6 @@ let story =  [
                     "next": 0
                 }
             ]
-
         }
         // {
         //     "id": 14,

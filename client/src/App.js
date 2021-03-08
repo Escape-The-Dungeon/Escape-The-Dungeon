@@ -7,11 +7,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Container from "./components/Container";
 import Youtube from "./pages/Youtube";
 
-
 function App() {
-  return (
-
-  
+  return ( 
     <Container>
     <Router>
       <Route exact path="/" component={Signup} />
