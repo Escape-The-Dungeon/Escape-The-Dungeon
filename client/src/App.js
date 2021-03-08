@@ -5,6 +5,7 @@ import Title from "./pages/Title";
 import Game from "./pages/Game";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Container from "./components/Container";
+import Youtube from "./pages/Youtube";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route exact path="/" component={Signup} />
       <Route exact path="/title" component={Title} />
       <Route exact path="/game" component={Game} />
+      <Route exact path="/video" component={Youtube} />
     </Router>
   </Container>
   );
