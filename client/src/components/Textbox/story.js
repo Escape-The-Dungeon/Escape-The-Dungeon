@@ -51,7 +51,7 @@ let story =  [
                     "next": 0
                 },
                 {
-                    "name": "Start Over",
+                    "name": "End Game",
                     "next": 0
                 },
             ]
@@ -93,7 +93,7 @@ let story =  [
                     "next": 0
                 },
                 {
-                    "name": "Start Over",
+                    "name": "End Game",
                     "next": 0
                 },
             ]
@@ -135,7 +135,7 @@ let story =  [
                     "next": 0
                 },
                 {
-                    "name": "Start Over",
+                    "name": "End Game",
                     "next": 0
                 }
             ]
@@ -149,7 +149,7 @@ let story =  [
                     "next": 0
                 },
                 {
-                    "name": "Start Over",
+                    "name": "End Game",
                     "next": 0
                 }
             ]
@@ -177,7 +177,7 @@ let story =  [
                     "next": 0
                 },
                 {
-                    "name": "Start Over",
+                    "name": "End Game",
                     "next": 0
                 }
             ]
@@ -191,7 +191,7 @@ let story =  [
                     "next": 0
                 },
                 {
-                    "name": "Start Over",
+                    "name": "End Game",
                     "next": 0
                 }
             ]
