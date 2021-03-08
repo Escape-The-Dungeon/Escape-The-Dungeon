@@ -3,6 +3,8 @@ import ytAPI from "../utils/ytAPI";
 import SearchBar from "../components/SearchBar";
 import VideoDetail from "../components/VideoDetail";
 import VideoList from "../components/VideoList";
+import Card from "../components/Card";
+
 class Youtube extends React.Component {
     state = {
         videos:[],
@@ -23,7 +25,7 @@ class Youtube extends React.Component {
     }
     render() {
         return (
-            <div className = 'ui container' style={{marginTop: '1em'}}>
+            <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">
                 <SearchBar handleFormSubmit={this.handleSubmit}/>
                 <div className='ui grid'>
                     <div className ='ui grid'>
@@ -39,7 +41,7 @@ class Youtube extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Card>
         )
     }
 }
