@@ -1,7 +1,7 @@
 let story =  [
         {
             "id": 0,
-            "img": "https://cdn.pixabay.com/photo/2017/08/16/22/27/thumbs-up-2649310_960_720.jpg",
+            "img": "./images/Scene01.jpg",
             "blob": "You are roused from a deep sleep by a drip of icy cold water splashing onto your face, soon discovering you are lying on the frigid floor of a damp cell. There is a dull ache in the back of your head as you recall being ambushed by an unknown assailant and, slowly, you get up. Are you still on the island of Statmos? Or are you some place else entirely? Determined to find out, you scan your surroundings for clues. The flickering light of a torch on the stone wall illuminates your path ahead, revealing an iron door mysteriously left open in front of you. You pry the torch from it’s rusty sconce on the wall, grateful for the light, and take a decisive step through the doorway as you courageously seek answers to your questions.\r\n" + "The other side of the door opens up into a small room, no less damp than the cell you emerged from. A  large rat scurries by as you approach its center and you find yourself flanked by two routes: a dimly lit hallway to your right and a narrow, dark tunnel to your left.\r\n"+ " The entrance to the tunnel is littered with debris, suggesting it was blown in from the other side somehow and, therefore, must not be a natural path in the original design of this dungeon. You swear you hear faint, heavy breathing in the darkness ahead as well..  though it might be your dehydrated mind playing tricks on you. Peering into the dimly lit hallway on your right, you can at least see a light at the end of this path.",
             "options": [
                 {
@@ -16,6 +16,7 @@ let story =  [
         },
         {
             "id": 1,
+            "img": "./images/Scene02.jpg",
             "blob": "You plunge into the darkness of the tunnel, torch firmly in hand. The cavern walls press down on you from all sides as they get narrower and more uneven the further you plod on, until finally the ceiling opens up. You are standing in the middle of what appears to be a large burial chamber. Shadows dance about on the walls as the light of your torch illuminates giant ancient stone coffins, some appearing to have been purposely moved from their original resting place and pried open. Piles of bones are scattered about the ground and an uneasiness falls upon you as you peer into the other end of the chamber, movement catching your eye. A large figure stands immobile in the distance, your torchlight giving you no indication as to what the figure might be as it is still half shrouded in darkness, but you are certain it is aware of your presence. Its glowing eyes have locked onto you but it makes no moves toward you. Perhaps you can still turn back..",
             "options": [
                 {
@@ -72,6 +73,7 @@ let story =  [
         },      
         {
             "id": 5,
+            "img": "./images/Scene03.jpg",
             "blob": "Daringly, you step forward. As you approach the figure your torchlight reveals more and more of the path ahead, crunching underneath your feet as piles of bones become more frequent. Your heart rate escalates as the glowing eyes inch closer with each step you take until, finally, your light is within range to see the figure clearly. A giant skeletal entity with its body half fused to the wall stares blankly at you, looming over a gathering of burnt corpses frozen in varying positions of prayer. Its free hand lays motionless to the side and you wonder why it pays you no mind. You notice an arched door directly underneath it, the direction all of the corpses are facing, and another room to the west with faint, eery sounds of weeping past its opening. Another survivor, perhaps?",
             "options": [
                 {
