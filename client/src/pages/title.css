@@ -56,3 +56,9 @@
   .nav-link:active {
     color: yellow;
   }
+
+  #reg-form {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+  }
