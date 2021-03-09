@@ -14,9 +14,9 @@ function Game() {
       <div id="torch">
           <Torches />
           </div>
-          <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">
+         
             <Textbox />
-          </Card>
+          
       <div id="torches">
           <Torches />
       </div>
