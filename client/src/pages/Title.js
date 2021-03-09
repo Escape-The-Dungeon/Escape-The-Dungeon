@@ -3,6 +3,7 @@ import Container from "../components/Container";
 import { Link } from "react-router-dom";
 import "./title.css";
 import Torches from "../components/Torches";
+import Navbar from "../components/Navbar";
 
 
 
@@ -16,12 +17,13 @@ function Title() {
   }
   return (
     <Container>
+      <Navbar />
       <section className="titleContainer">
       <div id="torch">
         <Torches />
         </div>
-        <h1>Welcome to Escape-The-Dungeon, {username}!</h1>
-        <h3>What will you do?</h3>
+        <h1>Welcome, {username}!</h1>
+        
         <img className="img-thumbnail" src="./images/background.png" alt="weapon" />
         <Link
           to="/game"
