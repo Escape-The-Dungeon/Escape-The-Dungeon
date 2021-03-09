@@ -8,3 +8,10 @@
     right: 50px;
     top: 225px;
   }
+
+  /* Hides torches so they dont overlap with game */
+  @media (max-width: 1300px) {
+    #torch, #torches {
+      display: none;
+    }
+  }

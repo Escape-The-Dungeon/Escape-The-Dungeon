@@ -13,15 +13,21 @@
 
 @media (max-width: 850px) {
   #text-box {
-    height: 300px;
+    height: 400px;
   }
 }
 
-@media ( min-width: 1900px ) {
+@media (min-width: 850px) {
   #text-box {
-    height: 290px;
+    height: 330px;
   }
 }
+
+/* @media ( min-width: 1900px ) {
+  #text-box {
+    height: 330px;
+  } */
+/* } */
 
 *, *::before, *::after {
     box-sizing: border-box;
