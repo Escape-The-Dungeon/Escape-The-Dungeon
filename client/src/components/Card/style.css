@@ -2,18 +2,26 @@
   background-size: cover;
   background-position: center;
   background-clip: content-box;
-  border: 6px solid white;
+  /* border: 6px solid white; */
+  padding-top: 15px;
   height: 670px;
   width: 850px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   position: relative;
   margin: 0 auto;
   margin-top: 30px;
+  /* margin-bottom: 50px; */
 }
 
-@media only screen and (min-width: 850px) {
+@media (max-width: 1100px) {
   .card {
-    /* background-color: lightblue; */
+    width: 80vw;
     height: 730px;
+  }
+}
+
+@media ( min-width: 1900px ) {
+  .card {
+    height: 740px;
   }
 }

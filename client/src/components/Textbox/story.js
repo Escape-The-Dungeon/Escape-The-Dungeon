@@ -21,12 +21,12 @@ let story =  [
             "blob": "The other side of the door opens up into a small room, no less damp than the cell you emerged from. A  large rat scurries by as you approach its center and you find yourself flanked by two routes: a dimly lit hallway to your right and a narrow, dark tunnel to your left. The entrance to the tunnel is littered with debris, suggesting it was blown in from the other side somehow and, therefore, must not be a natural path in the original design of this dungeon. You swear you hear faint, heavy breathing in the darkness ahead as well..  though it might be your dehydrated mind playing tricks on you. Peering into the dimly lit hallway on your right, you can at least see a light at the end of this path.",
             "options": [
                 {
-                    "name": "Dimly lit hallway",
-                    "next": 3
-                },
-                {
                     "name": "Dark Tunnel",
                     "next": 2
+                },
+                {
+                    "name": "Dimly lit hallway",
+                    "next": 3
                 }
             ]
         },
@@ -47,6 +47,7 @@ let story =  [
         },
         {
             "id": 3,
+            "img": "./images/Scene04.jpg",
             "blob": "Deciding to play it safe, you take the dimly lit hallway to the right, passing lit torches and occasionally stepping into a small puddle every few steps. Eventually, you make it to the other end and find yourself in the center of a small atrium. A large stone gargoyle stands guard on the far end of the room, but other than that there is no visible exit in sight. You approach the statue and to your surprise, it speaks to you in an icy whisper that sends chills down your spine. “It can't be seen, can't be felt, can't be heard, and can't be smelt. It lies behind stars and under hills, And empty holes it fills. It comes first and follows after, Ends life, and kills laughter. What is it?”",
             "options": [
                 {
