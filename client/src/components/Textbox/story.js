@@ -16,7 +16,7 @@ let story =  [
         },
         {
             "id": 1,
-            "img": "./images/Scene02.jpg",
+            "img": "./images/Scene03.jpg",
             "blob": "You plunge into the darkness of the tunnel, torch firmly in hand. The cavern walls press down on you from all sides as they get narrower and more uneven the further you plod on, until finally the ceiling opens up. You are standing in the middle of what appears to be a large burial chamber. Shadows dance about on the walls as the light of your torch illuminates giant ancient stone coffins, some appearing to have been purposely moved from their original resting place and pried open. Piles of bones are scattered about the ground and an uneasiness falls upon you as you peer into the other end of the chamber, movement catching your eye. A large figure stands immobile in the distance, your torchlight giving you no indication as to what the figure might be as it is still half shrouded in darkness, but you are certain it is aware of your presence. Its glowing eyes have locked onto you but it makes no moves toward you. Perhaps you can still turn back..",
             "options": [
                 {
@@ -73,7 +73,7 @@ let story =  [
         },      
         {
             "id": 5,
-            "img": "./images/Scene03.jpg",
+            "img": "./images/Scene02.jpg",
             "blob": "Daringly, you step forward. As you approach the figure your torchlight reveals more and more of the path ahead, crunching underneath your feet as piles of bones become more frequent. Your heart rate escalates as the glowing eyes inch closer with each step you take until, finally, your light is within range to see the figure clearly. A giant skeletal entity with its body half fused to the wall stares blankly at you, looming over a gathering of burnt corpses frozen in varying positions of prayer. Its free hand lays motionless to the side and you wonder why it pays you no mind. You notice an arched door directly underneath it, the direction all of the corpses are facing, and another room to the west with faint, eery sounds of weeping past its opening. Another survivor, perhaps?",
             "options": [
                 {
