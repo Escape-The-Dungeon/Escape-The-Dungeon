@@ -29,6 +29,8 @@ function Signup() {
             username: userName,
             age: age
         }
+        // create a cookie that is like username = userName
+        document.cookie = `username=${userName};`
         API.registerUser(user).then(res => {
             console.log(res)
         })
@@ -60,6 +62,7 @@ function Signup() {
                 className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
                 
         >
+            
 
 Enter!
             </Link >
