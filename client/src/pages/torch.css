@@ -1,0 +1,10 @@
+#torch {
+    position: absolute;
+    left: 50px;
+    top: 225px;
+  }
+  #torches {
+    position: absolute;
+    right: 50px;
+    top: 225px;
+  }

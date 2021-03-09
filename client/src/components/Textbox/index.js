@@ -30,6 +30,7 @@ class Textbox extends React.Component {
         }
 
         return (
+            
             <section className="col-md-12">
               
                 <img id="story-img" src={storyobj.img} />

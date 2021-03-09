@@ -5,10 +5,11 @@ import Card from "../components/Card";
 import Textbox from "../components/Textbox";
 import Torches from "../components/Torches";
 import Row from "../components/Row";
-import Col from "../components/Col";
+
 
 
 function Game() {
+
   return (
     <Container>
       <Navbar />
@@ -32,6 +33,7 @@ function Game() {
       </Col>
     </Container>
   )
+
 }
 
 export default Game;
