@@ -11,10 +11,20 @@
 
 /* TITLE PAGE STYLING */
 .titleContainer {
-    margin: 150px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     text-align: center;
     font-family: 'MedievalSharp', cursive;
     color: red;
+}
+#torch {
+  position: absolute;
+  left: 50px;
+  top: 175px;
+}
+#torches {
+  position: absolute;
+  right: 50px;
+  top: 175px;
 }
 
 .img-thumbnail {
@@ -62,3 +72,5 @@
     display: block;
     margin-top: 50px;
   }
+
+ 

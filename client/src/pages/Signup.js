@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import { Link } from "react-router-dom";
 import API from "../utils/API";
 import "./title.css";
-import Row from "../components/Row";
+import Card from "../components/Card";
 import Torches from "../components/Torches";
 
 function Signup() {
@@ -39,8 +39,10 @@ function Signup() {
     };
     return (
         <Container>
-            <Row>
+            <Card>
+                <div id="torch">
                 <Torches />
+                </div>
             <form id="reg-form">
                 <input
                     value={userName}
@@ -70,8 +72,10 @@ function Signup() {
 
 Enter!
             </Link >
-            <Torches />
-            </Row>
+            <div id="torches">
+                <Torches />
+                </div>
+                </Card>
         </Container >
     )
 }
