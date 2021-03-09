@@ -3,7 +3,6 @@ import Container from "../components/Container";
 import { Link } from "react-router-dom";
 import API from "../utils/API";
 import "./title.css";
-import Card from "../components/Card";
 import Torches from "../components/Torches";
 
 function Signup() {
@@ -39,10 +38,10 @@ function Signup() {
     };
     return (
         <Container>
-            <Card>
-                <div id="torch">
+
+            <div id="torch">
                 <Torches />
-                </div>
+            </div>
             <form id="reg-form">
                 <input
                     value={userName}
@@ -58,7 +57,7 @@ function Signup() {
                     type="number"
                     placeholder="Age"
                 />
-<button onClick={handleFormSubmit}>Save</button>
+                <button onClick={handleFormSubmit}>Save</button>
             </form>
 
             <Link
@@ -66,16 +65,16 @@ function Signup() {
                 to="/title"
                 id="reg-form"
                 className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
-                
-        >
-            
 
-Enter!
+            >
+
+
+                Enter!
             </Link >
             <div id="torches">
                 <Torches />
-                </div>
-                </Card>
+            </div>
+
         </Container >
     )
 }
