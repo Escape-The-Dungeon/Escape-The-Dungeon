@@ -3,6 +3,8 @@ import ytAPI from "../utils/ytAPI";
 import VideoDetail from "../components/VideoDetail";
 import VideoList from "../components/VideoList";
 import Card from "../components/Card";
+import Torches from "../components/Torches";
+import Row from "../components/Row";
 
 class Youtube extends React.Component {
     state = {
@@ -19,6 +21,8 @@ class Youtube extends React.Component {
            
             <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">
          <h1> Recomended videos </h1>
+         <Row>
+             <Torches />
                 <div className='ui grid'>
                     <div className='ui grid'>
                         <div className='ui row'>
@@ -32,6 +36,8 @@ class Youtube extends React.Component {
                         </div>
                     </div>
                 </div>
+                <Torches />
+            </Row>
             </Card>
         )
     }

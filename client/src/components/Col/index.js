@@ -1,7 +1,7 @@
 import React from "react";
 
-function Col() {
-  return <div className="col-md-12"></div>;
+function Col(props) {
+  return <div className="col-md-12">{props.children}</div>;
 }
 
 export default Col;
