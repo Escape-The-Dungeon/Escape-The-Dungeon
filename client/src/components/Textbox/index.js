@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Story from "./story";
 
+
 class Textbox extends React.Component {
     constructor(props) {
         super(props);
@@ -30,12 +31,16 @@ class Textbox extends React.Component {
 
         return (
             <section className="col-md-12">
+              
                 <img id="story-img" src={storyobj.img} />
+                
                 <div id="text-box" className="col-md-12">{storyobj.blob}
+               
                     <div id="option-buttons" className="btn-grid">
                         <button onClick={() => this.handleClick(storyobj.options[0].next)} className="btn-danger">{storyobj.options[0].name}</button>
                         {booten}
                     </div>
+             
                 </div>
             </section>
         )

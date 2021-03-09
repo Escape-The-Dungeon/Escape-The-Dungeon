@@ -3,6 +3,8 @@ import Container from "../components/Container";
 import { Link } from "react-router-dom";
 import API from "../utils/API";
 import "./title.css";
+import Row from "../components/Row";
+import Torches from "../components/Torches";
 
 function Signup() {
     //This is where set and state is, ya'll
@@ -37,6 +39,8 @@ function Signup() {
     };
     return (
         <Container>
+            <Row>
+                <Torches />
             <form id="reg-form">
                 <input
                     value={userName}
@@ -66,8 +70,8 @@ function Signup() {
 
 Enter!
             </Link >
-        
-
+            <Torches />
+            </Row>
         </Container >
     )
 }
