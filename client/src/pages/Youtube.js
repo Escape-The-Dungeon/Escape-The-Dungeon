@@ -5,6 +5,7 @@ import VideoList from "../components/VideoList";
 import Card from "../components/Card";
 import Torches from "../components/Torches";
 import "./torch.css";
+import Container from "../components/Container";
 
 
 class Youtube extends React.Component {
@@ -20,7 +21,10 @@ class Youtube extends React.Component {
 
         return (
            
-           
+           <Container>
+            <div id="torch">
+                <Torches />
+            </div>
             <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">
                 <h1> Recomended videos </h1>
         
@@ -39,7 +43,10 @@ class Youtube extends React.Component {
                 </div>
         
             </Card>
-            
+            <div id="torches">
+                <Torches />
+            </div>
+            </Container>
             
            
         )
