@@ -23,7 +23,7 @@ class Textbox extends React.Component {
         console.log(storyobj.options[1].next)
 
         let booten;
-        if (storyobj.options[0].next == 0) {
+        if (storyobj.options[0].next === 0) {
             booten = <button onClick={() => this.videoPage()} className="btn-danger">{storyobj.options[1].name}</button>
         } else {
             booten = <button onClick={() => this.handleClick(storyobj.options[1].next)} className="btn-danger">{storyobj.options[1].name}</button>

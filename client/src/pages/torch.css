@@ -9,9 +9,28 @@
     top: 225px;
   }
 
+h1 {
+  text-align: center;
+  color: white;
+}
+#grid_one {
+  overflow: scroll; 
+}
+
+
+
+
+#box {
+  display: block;
+  border: 6px solid red;
+  background-color: black;
+}
+
+
   /* Hides torches so they dont overlap with game */
   @media (max-width: 1300px) {
     #torch, #torches {
       display: none;
     }
   }
+
