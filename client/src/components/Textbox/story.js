@@ -47,7 +47,7 @@ let story =  [
         },
         {
             "id": 3,
-            "img": "./images/Scene04.jpg",
+            "img": "./images/Scene04.png",
             "blob": "Deciding to play it safe, you take the dimly lit hallway to the right, passing lit torches and occasionally stepping into a small puddle every few steps. Eventually, you make it to the other end and find yourself in the center of a small atrium. A large stone gargoyle stands guard on the far end of the room, but other than that there is no visible exit in sight. You approach the statue and to your surprise, it speaks to you in an icy whisper that sends chills down your spine. “It can't be seen, can't be felt, can't be heard, and can't be smelt. It lies behind stars and under hills, And empty holes it fills. It comes first and follows after, Ends life, and kills laughter. What is it?”",
             "options": [
                 {
