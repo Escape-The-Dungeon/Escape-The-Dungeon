@@ -1,4 +1,17 @@
-.container{
+/* .container{
+    position: relative;
     height: 100%;
-    width: 100%;
-}
+    min-width: 100%;
+} */
+
+@media (max-width: 850px) {
+    .container {
+      height: 110%;
+    }
+  }
+  
+  @media ( min-width: 1900px ) {
+    .container {
+      height: 290px;
+    }
+  }
