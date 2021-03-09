@@ -3,7 +3,7 @@ import "./style.css";
 
 function Card(props) {
   return (
-    <div className="card" style={{ backgroundImage: `url(${props.backgroundImage})`}}>
+    <div className="card">
       {props.children}
     </div>
   );

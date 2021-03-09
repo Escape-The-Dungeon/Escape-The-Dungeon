@@ -1,3 +1,10 @@
 #one {
     color: white;
 }
+
+#video_pick, #video_pick_description {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+

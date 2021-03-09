@@ -9,10 +9,10 @@ const VideoDetail = ({video}) => {
     console.log(typeof(video));
     return (
         <div>
-            <div className='ui embed'>
+            <div id="video_pick" className='ui embed'>
                 <iframe src={videoSrc} allowFullScreen title='Video player'/>
             </div>
-            <div className='ui segment'>
+            <div id="video_pick_description" className='ui segment'>
                 <h4 id="one" className='ui header'>{video.snippet.title}</h4>
                 <p id="one">{video.snippet.description}</p>
             </div>

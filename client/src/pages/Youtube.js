@@ -25,24 +25,29 @@ class Youtube extends React.Component {
             <div id="torch">
                 <Torches />
             </div>
-            <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">
-                <h1> Recomended videos </h1>
+            <div id="card">
+            <Card>
+            <div id="box">
+                <h1> Recommended videos </h1>
         
                 <div className='ui grid'>
                     <div className='ui grid'>
                         <div className='ui row'>
-                            <div className="eleven wide column">
+                            <div id="selected_video" className="col-sm-6">
                                 <VideoDetail video={this.state.selectedVideo} />
                             </div>
-                            <div className="five wide column">
+                            <div id="video_choices" className="col-sm-6">
                                 <VideoList handleVideoSelect={this.handleVideoSelect}
                                     videos={this.state.videos} />
                             </div>
                         </div>
                     </div>
                 </div>
-        
+                </div>
+
             </Card>
+            </div>
+            
             <div id="torches">
                 <Torches />
             </div>
