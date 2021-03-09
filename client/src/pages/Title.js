@@ -31,6 +31,17 @@ function Title() {
         >
           Start Game
             </Link>
+            <Link
+
+                to="/about"
+                id="reg-form"
+                className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+
+            >
+
+
+                About the Creators!
+            </Link >
         <div id="torches">
         <Torches  />
         </div> 
