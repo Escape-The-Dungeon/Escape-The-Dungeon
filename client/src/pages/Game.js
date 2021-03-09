@@ -9,22 +9,31 @@ import Row from "../components/Row";
 
 
 function Game() {
-    return (
-      <Row>
-        <Torches />
+
+  return (
     <Container>
       <Navbar />
-    
-      <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">
-       
-        <Textbox />
-      </Card>
-    
-      
+      <Col>
+        <Row>
+          <Torches />
+        </Row>
+      </Col>
+      <Col>
+        <Row>
+          <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">
+
+            <Textbox />
+          </Card>
+        </Row>
+      </Col>
+      <Col>
+        <Row>
+          <Torches />
+        </Row>
+      </Col>
     </Container>
-    <Torches />
-    </Row>
-    )
+  )
+
 }
 
 export default Game;
