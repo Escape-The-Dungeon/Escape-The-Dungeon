@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Container from "../components/Container";
 import Card from "../components/Card";
 import Textbox from "../components/Textbox";
-import HealthBar from "../components/HealthBar";
+
 
 function Game() {
     return (
