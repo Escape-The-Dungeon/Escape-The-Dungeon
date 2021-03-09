@@ -73,4 +73,11 @@
     margin-top: 50px;
   }
 
+  #text {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+  }
+
  
