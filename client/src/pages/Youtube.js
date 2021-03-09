@@ -14,9 +14,11 @@ class Youtube extends React.Component {
         this.setState({ selectedVideo: video })
     }
     render() {
+
         return (
+           
             <Card backgroundImage="https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_960_720.jpg">
-         
+         <h1> Recomended videos </h1>
                 <div className='ui grid'>
                     <div className='ui grid'>
                         <div className='ui row'>
