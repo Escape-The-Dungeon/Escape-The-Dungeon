@@ -14,9 +14,9 @@ function Game() {
       <div id="torch">
           <Torches />
           </div>
-          <Card>
+         
             <Textbox />
-          </Card>
+          
       <div id="torches">
           <Torches />
       </div>
