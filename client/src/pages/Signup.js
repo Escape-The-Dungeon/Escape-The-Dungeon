@@ -7,7 +7,7 @@ import "./title.css";
 function Signup() {
     //This is where set and state is, ya'll
     const [userName, setuserName] = useState("");
-    const [password, setpassword] = useState("");
+    const [age, setage] = useState("");
 
     const handleInputChange = event => {
         // Getting the value and name of the input which triggered the change
@@ -17,9 +17,9 @@ function Signup() {
         if (name === "userName") {
             setuserName(value)
         }
-        if (name === "password") {
-            setpassword(value);
-          }   
+        if (name === "age") {
+            setage(value);
+        }
     };
 
     const handleFormSubmit = event => {
@@ -27,7 +27,7 @@ function Signup() {
         event.preventDefault();
         let user = {
             username: userName,
-            password: password
+            age: age
         }
         API.registerUser(user).then(res => {
             console.log(res)
@@ -44,22 +44,28 @@ function Signup() {
                     placeholder="User Name"
                 />
                 <input
-                    value={password}
-                    name="password"
+                    value={age}
+                    name="age"
                     onChange={handleInputChange}
-                    type="text"
-                    placeholder="Password"
+                    type="number"
+                    placeholder="Age"
                 />
-                <button onClick={handleFormSubmit}>Submit</button>
+<button onClick={handleFormSubmit}>Save</button>
             </form>
+
             <Link
+
                 to="/title"
                 id="reg-form"
                 className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
-            >
-                Sign up!
-            </Link>
-        </Container>
+                
+        >
+
+Enter!
+            </Link >
+        
+
+        </Container >
     )
 }
 
