@@ -76,6 +76,7 @@ let story =  [
         },      
         {
             "id": 5,
+            "img": "./images/Scene05.png",
             "blob": "The gargoyle nods. “Welcome home, good doctor.” It says as the platform underneath it activates, revealing a hidden path behind the statue. Afterwards, the statue remains unresponsive and still. You thank your sharp wits and continue onwards to the hidden path. You recall the gargoyle calling you ‘doctor’ and wonder what it all means as you proceed forward and soon enough you find yourself in a winding hallway lit with more torches. Up ahead is an open iron door and faint humming can be heard from beyond the door frame. You can only imagine that to be the ‘good doctor’ the gargoyle spoke about. To the left of you is a wooden door opened slightly and you can see descending stairs through the slit of the door.",
             "options": [
                 {
@@ -105,6 +106,7 @@ let story =  [
         },
         {
             "id": 7,
+            "img": "./images/Scene06.png",
             "blob": "You dare to investigate the humming and continue down the expansive hallway. Stepping through the doorway, the humming ceases immediately. You gaze upon a damp, dimly lit office with a hospital bed in the far left corner, medical equipment strewn about the floor and on a desk in the center of the room facing you. A man sits in its chair, scribbling hastily into a notebook. Garbed in a black cloak and a white beak-like mask, you can only assume you are looking at the doctor the gargoyle spoke of. “Ah, come in, come in..”, he says, beckoning you with a gesture of his hand. The iron door behind you clangs shut as two skeletal beings flank you. “You’ve saved me the trouble of fetching you. The infection runs rampant within you.. But I believe I have the cure.” He walks over to you, his hand snaps up from behind the book he was reading and touches your arm.Your world turns dark as his deadly grip drains you of life. Your journey has come to an abrupt end; your body eventually becoming one of the doctors frightful creations. THE END",
             "options": [
                 {
@@ -133,6 +135,7 @@ let story =  [
         },
         {
             "id": 9,
+            "img": "./images/Scene01.jpg",
             "blob": "Moving past the burnt corpses, you daringly make your way to the exit underneath the giant, who stirs a bit as you approach it. It howls, raising its free hand to its head. You take this as a sign to pick up the pace and narrowly escape death as you run past the doorway while the entity conjures flames out of thin air, lighting the burial chamber ablaze where you were mere seconds ago. You look back over your shoulder briefly as the corpses crumble into ashes. The giant continues its howling for a long time, enraged at having been outsmarted. Its voice eventually fades as you continue down the hallway at a brisk pace, which steadily takes you uphill. You grow hopeful and then suddenly come across a fork in the road. You look at the path to your left and notice the stone walls turn into dirt. You look to your right and feel that the air more clearly in that direction.",
             "options": [
                 {
