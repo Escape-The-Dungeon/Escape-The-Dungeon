@@ -4,8 +4,9 @@ import VideoDetail from "../components/VideoDetail";
 import VideoList from "../components/VideoList";
 import Card from "../components/Card";
 import Torches from "../components/Torches";
-import "./torch.css";
+import "./youtube.css";
 import Container from "../components/Container";
+import { Link } from "react-router-dom";
 
 
 class Youtube extends React.Component {
@@ -20,13 +21,26 @@ class Youtube extends React.Component {
     render() {
 
         return (
-           
+           <div>
+               <div>
+            <Link
+
+            to="/title"
+            id="reg-form"
+            className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
+
+        >
+
+
+            Back to HomePage!
+            </Link >
+            </div>
            <Container>
             <div id="torch">
                 <Torches />
             </div>
-            <div id="card">
-            <Card>
+            
+           
             <div id="box">
                 <h1> Recommended videos </h1>
         
@@ -43,15 +57,20 @@ class Youtube extends React.Component {
                         </div>
                     </div>
                 </div>
-                </div>
-
-            </Card>
             </div>
+
+           
+           
             
             <div id="torches">
                 <Torches />
             </div>
+            
             </Container>
+            
+            
+            </div>
+        
             
            
         )
