@@ -8,6 +8,7 @@ function Navbar() {
       <div id="title">
         <b>Escape The Dungeon</b>    
       </div>      
+      
   );
 }
 
