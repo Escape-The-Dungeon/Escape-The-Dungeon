@@ -26,7 +26,7 @@ class Youtube extends React.Component {
             <Link
 
             to="/title"
-            id="reg-form"
+            id="link"
             className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
 
         >
@@ -41,7 +41,7 @@ class Youtube extends React.Component {
             </div>
             
            
-            <div id="box">
+            <div id="boxes">
                 <h1> Recommended videos </h1>
         
                 <div className='ui grid'>

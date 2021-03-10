@@ -88,7 +88,7 @@
     margin-top: 150px;
     border: 6px solid red;
     background-color: black;
-    width: 40%;
+    width: 40% !important;
     height: 5% !important;
     margin-top: 150px;
     margin-left: 305px;
