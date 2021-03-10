@@ -121,6 +121,7 @@ let story =  [
         },
         {
             "id": 8,
+            "img": "./images/Scene07.png",
             "blob": "You opt to go the alternative route and avoid confrontation with whatever was behind that door. Taking the wooden door to your left, you rush down a flight of stairs and swear you hear shouts from up above you. It seems you may have attracted unwanted attention. Clutching your torch tightly you pick up the pace and it is not long before you also start to hear the rush of running water somewhere below as you near the base of the stairs. At the bottom at last you find yourself at the very edge of a huge, dark underground basin. The water here is eerily still and stalactites grow from the ceiling; to your left is a steep path sloping upwards that takes you to yet another door, however there is a small raft you can use to reach the other side of the water which extends into another tunnel. From behind you, footsteps can be heard descending rapidly down the stairs, prompting you to make a split second decision.",
             "options": [
                 {
