@@ -1,0 +1,40 @@
+#torch {
+    position: absolute;
+    left: 50px;
+    top: 225px;
+  }
+  #torches {
+    position: absolute;
+    right: 50px;
+    top: 225px;
+  }
+
+h1 {
+  text-align: center;
+  color: white;
+}
+#grid_one {
+  overflow: scroll; 
+}
+
+#box {
+  display: block;
+  border: 6px solid red;
+  background-color: black;
+  width: 80%;
+  margin: auto;
+}
+
+
+  /* Hides torches so they dont overlap with game */
+  @media (max-width: 1300px) {
+    #torch, #torches {
+      display: none;
+    }
+  }
+
+  #reg-form{
+      position: absolute;
+      margin-left: -100px;
+      margin-top: -100px;
+  }
