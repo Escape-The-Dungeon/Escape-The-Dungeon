@@ -37,11 +37,12 @@ function Signup() {
         })
     };
     return (
-        <Container>
-
-            <div id="torch">
+        <div>
+            <div id="torch_more">
                 <Torches />
             </div>
+        <Container>
+            
             <form id="reg-form">
                 <input
                     value={userName}
@@ -59,24 +60,20 @@ function Signup() {
                 />
                 <button onClick={handleFormSubmit}>Save</button>
             </form>
-
             <Link
-
                 to="/title"
                 id="reg-form"
                 className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
-
+               
             >
-
-
-                Enter!
+               Enter!
             </Link >
             
-            <div id="torches">
-                <Torches />
-            </div>
-
         </Container >
+        <div id="torches_more">
+        <Torches />
+        </div>
+        </div>
     )
 }
 
