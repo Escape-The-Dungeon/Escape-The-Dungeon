@@ -3,10 +3,25 @@ import Navbar from "../components/Navbar";
 import Container from "../components/Container";
 import Torches from "../components/Torches";
 import "./title.css";
-
+import { Link } from "react-router-dom";
 
 function About() {
   return ( 
+    <div>
+    <div>
+            <Link
+
+            to="/title"
+            id="link"
+            className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
+
+        >
+
+
+            Back to HomePage!
+            </Link >
+            </div>
+            
     <Container>
       <Navbar />
       <div id="torch">
@@ -27,6 +42,7 @@ function About() {
           <Torches />
       </div>
     </Container>  
+    </div>
   )
 }
 
