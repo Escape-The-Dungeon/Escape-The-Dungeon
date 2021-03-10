@@ -17,9 +17,9 @@ function Title() {
   }
   return (
     <Container>
-      <Navbar />
+      
       <section className="titleContainer">
-      <div id="torch">
+      <div id="torch_more">
         <Torches />
         </div>
         <h1>Welcome, {username}!</h1>
@@ -42,7 +42,7 @@ function Title() {
 
                 About the Creators!
             </Link >
-        <div id="torches">
+        <div id="torches_more">
         <Torches  />
         </div> 
       </section>

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import API from "../utils/API";
 import "./title.css";
 import Torches from "../components/Torches";
+import Navbar from "../components/Navbar";
 
 function Signup() {
     //This is where set and state is, ya'll
@@ -41,8 +42,9 @@ function Signup() {
             <div id="torch_more">
                 <Torches />
             </div>
+            <Navbar />
         <Container>
-            
+          <div id="box"> 
             <form id="reg-form">
                 <input
                     value={userName}
@@ -60,9 +62,10 @@ function Signup() {
                 />
                 <button onClick={handleFormSubmit}>Save</button>
             </form>
+            </div>  
             <Link
                 to="/title"
-                id="reg-form"
+                id="reg"
                 className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
                
             >
