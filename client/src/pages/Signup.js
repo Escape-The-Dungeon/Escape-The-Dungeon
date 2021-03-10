@@ -23,19 +23,30 @@ function Signup() {
             setage(value);
         }
     };
+    
 
     const handleFormSubmit = event => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
-        event.preventDefault();
-        let user = {
-            username: userName,
-            age: age
-        }
-        // create a cookie that is like username = userName
-        document.cookie = `username=${userName};`
-        API.registerUser(user).then(res => {
-            console.log(res)
-        })
+        
+            event.preventDefault();
+            let user = {
+                username: userName,
+                age: age
+
+            }
+            if (user.age < 13) {
+                alert('Please get your parents permission and try again');
+                return;
+            }
+            // create a cookie that is like username = userName
+            document.cookie = `username=${userName};`
+            API.registerUser(user).then(res => {
+                console.log(res)
+                console.log("this works");
+                document.location.href = "/title";
+            })
+      
+
     };
     return (
         <div>
@@ -43,39 +54,38 @@ function Signup() {
                 <Torches />
             </div>
             <Navbar />
-        <Container>
-          <div id="box"> 
-            <form id="reg-form">
-                <input
-                    value={userName}
-                    name="userName"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="User Name"
-                />
-                <input
-                    value={age}
-                    name="age"
-                    onChange={handleInputChange}
-                    type="number"
-                    placeholder="Age"
-                />
-                <button onClick={handleFormSubmit}>Save</button>
-            </form>
-            </div>  
-            <Link
-                to="/title"
-                id="reg"
-                className={window.location.pathname === "/title" ? "nav-link active" : "nav-link"}
-               
-            >
-               Enter!
-            </Link >
-            
-        </Container >
-        <div id="torches_more">
-        <Torches />
-        </div>
+            <div id="caption">
+                <h3>Must be 13 or older to play</h3>
+            </div>
+            <Container>
+                <div id="box">
+                    <form id="reg-form">
+                        <input
+                            value={userName}
+                            name="userName"
+                            onChange={handleInputChange}
+                            type="text"
+                            placeholder="User Name"
+                        />
+                        <input
+                            value={age}
+                            name="age"
+                            onChange={handleInputChange}
+                            type="number"
+                            placeholder="Age"
+                        />
+                         
+                    </form>
+                </div>
+                <form method="get" action="/title">
+                    <button  type="submit" id="reg" onClick={handleFormSubmit}>ENTER</button> 
+                    </form>
+           
+
+            </Container >
+            <div id="torches_more">
+                <Torches />
+            </div>
         </div>
     )
 }
