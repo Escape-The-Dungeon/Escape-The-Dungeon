@@ -34,6 +34,10 @@ function Signup() {
                 age: age
 
             }
+            if(user.userName || user.age === '') {
+                alert("Invalid Input")
+                return
+            } 
             if (user.age < 13) {
                 alert('Please get your parents permission and try again');
                 return;
