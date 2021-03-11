@@ -42,7 +42,8 @@ class Youtube extends React.Component {
             
            
             <div id="boxes">
-                <h1> Recommended videos </h1>
+                <h1> Thanks For Playing!</h1>
+                <h4> Please enjoy some recomended videos based on our game</h4>
         
                 <div className='ui grid'>
                     <div className='ui grid'>
