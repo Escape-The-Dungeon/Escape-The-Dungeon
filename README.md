@@ -7,15 +7,13 @@ A spooky text adventure that uses age verification upon login, must be 13 years 
   
   ## Table of Contents 
   
-  * [Deployed](#deplyed)
+  * [Deployed](#deployed)
 
-  * [Demo](Demo)
+  * [Creators](#creators)
+
+  * [Demo](#demo)
   
   * [Contributing](#contributing)
-  
-  * [Tests](#tests)
-  
-  * [Questions](#questions)
   
 
   ## Deployed
@@ -38,7 +36,7 @@ A spooky text adventure that uses age verification upon login, must be 13 years 
   
   Please let us know if you have any feedback/comments:
    * :email: [Ashlyn](mailto:ash.giselle96@gmail.com)
-   * :email: [Leandro](mailto:email@email.com)
+   * :email: [Leandro](mailto:lparrado321@gmail.com)
    * :email: [Jonathan](mailto:email@email.com)
    
   
