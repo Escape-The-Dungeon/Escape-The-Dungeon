@@ -96,8 +96,10 @@
   font-family: 'MedievalSharp', cursive;
 }
 
-.bio {
-  margin: 0 0 40px 0;
+.profile {
+  border-radius: 50%;
+  min-width: 30%;
+  height: auto;
 }
 
 #box {
@@ -139,7 +141,6 @@ input {
   padding: 5px;
   font-size: 28px;
   width: 40px;
-  text-align: center;
   margin: 0px 7px 40px 0;;
   border-radius: 50%;
   text-align: center;
