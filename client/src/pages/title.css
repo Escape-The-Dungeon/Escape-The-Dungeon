@@ -87,12 +87,17 @@
   padding   : 5px;
 }
 
+/* About Us page text */
 .text {
   color      : whitesmoke;
   text-align : center;
-  font-size  : 20px;
+  font-size  : 25px;
   margin     : auto;
-  font-family: 'Nosifer', cursive;
+  font-family: 'MedievalSharp', cursive;
+}
+
+.bio {
+  margin: 0 0 40px 0;
 }
 
 #box {
@@ -134,18 +139,17 @@ input {
   padding: 5px;
   font-size: 28px;
   width: 40px;
-  /* height: 0px; */
   text-align: center;
-  text-decoration: none;
-  margin: 0px 7px;
+  margin: 0px 7px 40px 0;;
   border-radius: 50%;
   text-align: center;
-  color: white;
-  background-color: rgb(168, 39, 7)
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255)
 }
 
 .fa:hover {
     opacity: 0.7;
-    color: black;
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-shadow: 0 0 3px white;
 }
