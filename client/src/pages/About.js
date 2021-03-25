@@ -4,6 +4,7 @@ import Container from "../components/Container";
 import Torches from "../components/Torches";
 import "./title.css";
 import { Link } from "react-router-dom";
+import Row from "../components/Row"
 
 function About() {
   return (
@@ -28,17 +29,24 @@ function About() {
           <Torches />
         </div>
 
-        <section className="text">
+        <section className="text col-md-8">
           <p>Creators of the game:</p>
           <p>--------------------------------</p>
           <p>Ashlyn Hicks is a hardworking coder who loves videogames. Her vivid imagination led to the creation of a large portion of this game's story.</p>
           <a href="https://github.com/jpls218" className="fa fa-github"></a>
           <a href="https://www.linkedin.com/in/jonathan-smith-9498781ba/" class="fa fa-linkedin"></a>
           <br></br>
-          <p>Leandro Parrado is the coder/artist who created all of the illustrations seen in this game. He also helped write some of the story seen in the game.</p>
+
+          {/* Picture */}
+          <Row>
+
+            <img src="https://raw.githubusercontent.com/Bokosyk/React-Portfolio/main/public/images/File_000.jpeg" alt="Placeholder" className="profile col-md-4" />
+            <p className="text-wrap col-md-6">Leandro Parrado is the coder/artist who created all of the illustrations seen in this game. He also helped write some of the story seen in the game.</p>
+          </Row>
           <a href="https://github.com/Bokosyk" className="fa fa-github"></a>
           <a href="https://www.linkedin.com/in/leandro-parrado-a05729166/" class="fa fa-linkedin"></a>
           <br></br>
+
           <p>Jonathan Smith is a coder who helped edit and contribute to the overall style and design of the game.</p>
           <a href="https://github.com/jpls218" className="fa fa-github"></a>
           <a href="https://www.linkedin.com/in/jonathan-smith-9498781ba/" class="fa fa-linkedin"></a>
