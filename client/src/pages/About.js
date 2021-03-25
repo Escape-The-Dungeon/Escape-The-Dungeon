@@ -34,8 +34,12 @@ function About() {
             <p id="text">Ashlyn Hicks is a hardworking coder who loves videogames. Her vivid imagination led to the creation of a large portion of this game's story.</p>
             <br></br>
             <p id="text">Leandro Parrado is the coder/artist who created all of the illustrations seen in this game. He also helped write some of the story seen in the game.</p>
+            <a href="https://github.com/Bokosyk" class="fa fa-github"></a>
+    <a href="https://www.linkedin.com/in/leandro-parrado-a05729166/" class="fa fa-linkedin"></a>
             <br></br>
             <p id="text">Jonathan Smith is a coder who helped edit and contribute to the overall style and design of the game.</p>
+            <a href="https://github.com/jpls218" class="fa fa-github"></a>
+    <a href="https://www.linkedin.com/in/jonathan-smith-9498781ba/" class="fa fa-linkedin"></a>
           
           
       <div id="torches">

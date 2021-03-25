@@ -88,11 +88,7 @@
 }
 
 #text {
-
- 
-
   color      : whitesmoke;
-
   text-align : center;
   font-size  : 20px;
   margin     : auto;
@@ -101,12 +97,10 @@
 
 #box {
   display         : absolute;
-
   border          : 6px solid red;
   background-color: black;
   width           : 40% !important;
   height          : 5% !important;
-
   margin          : auto;
 }
 
@@ -118,7 +112,6 @@ input {
   text-align : center;
   font-family: 'Nosifer', cursive;
   color      : red;
-
   background : black;
   display    : block;
   margin     : auto;
@@ -134,4 +127,20 @@ input {
     display: none;
   }
 
+}
+
+/* SOCIAL MEDIA BUTTONS */
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
