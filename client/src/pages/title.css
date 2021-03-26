@@ -36,7 +36,6 @@
   width    : 35%;
   margin   : auto;
   display  : block
-
 }
 
 #caption {
@@ -94,13 +93,31 @@
   font-size  : 25px;
   margin     : auto;
   font-family: 'MedievalSharp', cursive;
+
 }
 
 .profile {
-  border-radius: 50%;
-  min-width: 30%;
-  height: auto;
+  border-radius  : 50%;
+  max-width      : 100%;
+  height         : auto;
+  background-size: contain;
+  display        : block;
+
+
 }
+
+
+
+@media only screen and (min-width: 600px) {
+
+  /* For tablets */
+  .profile {
+    width : 75%;
+    height: 75%
+  }
+}
+
+
 
 #box {
   display         : absolute;
@@ -138,19 +155,20 @@ input {
 
 /* SOCIAL MEDIA BUTTONS */
 .fa {
-  padding: 5px;
+  padding  : 5px;
   font-size: 28px;
-  width: 40px;
-  margin: 0px 7px 40px 0;;
-  border-radius: 50%;
-  text-align: center;
-  color: rgb(0, 0, 0);
+  width    : 40px;
+  margin   : 0px 7px 40px 0;
+  ;
+  border-radius   : 50%;
+  text-align      : center;
+  color           : rgb(0, 0, 0);
   background-color: rgb(255, 255, 255)
 }
 
 .fa:hover {
-    opacity: 0.7;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    text-shadow: 0 0 3px white;
+  opacity         : 0.7;
+  color           : rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  text-shadow     : 0 0 3px white;
 }
