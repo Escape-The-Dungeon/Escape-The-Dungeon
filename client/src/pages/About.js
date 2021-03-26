@@ -32,10 +32,10 @@ function About() {
         <section className="text col-md-8" >
           <p>Creators of the game:</p>
           <p>--------------------------------</p>
-
-          <img src="images/pic.JPG" alt="placeholder" className="profile col-md-4"></img>
-          <p>Ashlyn Hicks is a hardworking coder who loves videogames. Her vivid imagination led to the creation of a large portion of this game's story.</p>
-
+          <Row>
+          <img src="images/pic.JPG" alt="Placeholder" className="profile col-md-4"></img>
+          <p className="text-wrap col-md-6">Ashlyn Hicks is a hardworking coder who loves videogames. Her vivid imagination led to the creation of a large portion of this game's story.</p>
+          </Row>
           <a href="https://github.com/jpls218" className="fa fa-github"></a>
           <a href="https://www.linkedin.com/in/jonathan-smith-9498781ba/" class="fa fa-linkedin"></a>
           <br></br>
@@ -56,9 +56,10 @@ function About() {
           <br></br>
           
           
-          
-
-          <p>Jonathan Smith is a coder who helped edit and contribute to the overall style and design of the game.</p>
+          <Row>
+          <img src="images/jon.jpeg" alt="Placeholder" className="profile col-md-4"></img>
+          <p className="text-wrap col-md-6">Jonathan Smith is a coder who helped edit and contribute to the overall style and design of the game.</p>
+          </Row>
           <a href="https://github.com/jpls218" className="fa fa-github"></a>
           <a href="https://www.linkedin.com/in/jonathan-smith-9498781ba/" class="fa fa-linkedin"></a>
         </section>

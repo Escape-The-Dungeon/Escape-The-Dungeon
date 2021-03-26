@@ -5,6 +5,7 @@ import API from "../utils/API";
 import "./title.css";
 import Torches from "../components/Torches";
 import Navbar from "../components/Navbar";
+import Music from "../components/Music";
 
 function Signup() {
     //This is where set and state is, ya'll
@@ -54,6 +55,9 @@ function Signup() {
     };
     return (
         <div>
+             <div>
+            
+            </div>
             <div id="torch_more">
                 <Torches />
             </div>
