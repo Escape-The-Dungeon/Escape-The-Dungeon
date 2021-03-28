@@ -34,12 +34,15 @@ class App extends React.Component {
     this.state.story = API.getAllStories()[0]
   }
   render() {
+    console.log(this.state.story);
     return (
       <Container>
         <Router>
           <Route exact path="/" component={Signup} />
           <Route exact path="/title" component={Title} />
-          <Route exact path="/game" component={Game} story={this.state.story} />
+          <Route exact path="/game">
+            <Game story={this.state.story} />
+          </Route>
           <Route exact path="/video" component={Youtube} />
           <Route exact path="/about" component={About} />
         </Router>

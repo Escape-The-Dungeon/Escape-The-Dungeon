@@ -6,23 +6,28 @@ import Torches from "../components/Torches";
 import "./torch.css";
 
 
-function Game(props) {
+class Game extends React.Component {
 
-  return (
 
-    <Container>
-      <Navbar />
-      <div id="torch">
-        <Torches />
-      </div>
+  render() {
+    console.log(this)
+    return (
 
-      <Textbox story={props} />
+      <Container>
+        <Navbar />
+        <div id="torch">
+          <Torches />
+        </div>
 
-      <div id="torches">
-        <Torches />
-      </div>
-    </Container>
-  )
+        <Textbox story={this.props.story} />
+
+        <div id="torches">
+          <Torches />
+        </div>
+      </Container>
+    )
+
+  }
 }
 
 export default Game;
