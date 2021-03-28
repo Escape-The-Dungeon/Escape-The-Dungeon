@@ -6,20 +6,22 @@ import Torches from "../components/Torches";
 import "./torch.css";
 
 
-function Game() {
-  return ( 
+function Game(props) {
+
+  return (
+
     <Container>
       <Navbar />
       <div id="torch">
-          <Torches />
-          </div>
-         
-            <Textbox />
-          
-      <div id="torches">
-          <Torches />
+        <Torches />
       </div>
-    </Container>  
+
+      <Textbox story={props} />
+
+      <div id="torches">
+        <Torches />
+      </div>
+    </Container>
   )
 }
 
