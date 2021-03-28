@@ -115,6 +115,10 @@
   }
 }
 
+img.col-md-4 {
+  width : 75%;
+}
+
 
 
 #box {
