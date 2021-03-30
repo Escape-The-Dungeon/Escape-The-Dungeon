@@ -36,8 +36,8 @@ function About() {
             <img src="images/pic.JPG" alt="Placeholder" className="profile col-md-4"></img>
             <p className="text-wrap col-md-6">Ashlyn Hicks is a hardworking coder who loves videogames. Her vivid imagination led to the creation of a large portion of this game's story.</p>
           </Row>
-          <a href="https://github.com/jpls218" className="fa fa-github"></a>
-          <a href="https://www.linkedin.com/in/jonathan-smith-9498781ba/" class="fa fa-linkedin"></a>
+          <a href="https://github.com/ashattack" className="fa fa-github"></a>
+          <a href="https://www.linkedin.com/in/ashlyn-h-55215291/" class="fa fa-linkedin"></a>
           <br></br>
 
 
